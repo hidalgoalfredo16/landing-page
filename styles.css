@@ -13,8 +13,11 @@ a {
   margin-left: 4px;
 }
 
-.header {
+.dark-background {
   background-color: #1F2937;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,4 +31,11 @@ a {
 
 .header .header-links {
   font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
 }
