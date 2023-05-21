@@ -65,7 +65,7 @@ a {
   margin-top: 0;
 }
 
-.first-article p {
+p {
   font-size: 18px;
   color: #E5E7EB;
   margin-top: 0;
@@ -81,3 +81,34 @@ a {
   padding: 8px 30px;
 }
 
+.second-article h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 100px;
+}
+
+.cards-container .card {
+  flex: 1;
+}
+
+.cards-container .card img {
+  display: block;
+  width: 95%;
+  height: 0%;
+  padding-bottom: 100%;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+}
+
+.cards-container .card p {
+  text-align: center;
+}
